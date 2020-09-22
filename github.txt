@@ -1,0 +1,9 @@
+git init
+git add .
+git commit -m "first commit"
+git branch -M master
+git remote set-url origin https://github.com/lashatatkhashvili/calculator.git
+git push -u origin master
+
+npm run build
+npm run deploy

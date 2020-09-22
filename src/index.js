@@ -24,77 +24,95 @@ class Counter extends React.Component {
     }));
   }
   two2() {
+    if(this.state.count == 0){this.state.count = "";}
     this.setState(state => ({
       count: state.count + "2"
     }));
   }
    three3() {
+    if(this.state.count == 0){this.state.count = "";}
     this.setState(state => ({
       count: state.count + "3"
     }));
   }
    four4() {
+    if(this.state.count == 0){this.state.count = "";}
     this.setState(state => ({
       count: state.count + "4"
     }));
   }
    five5() {
+    if(this.state.count == 0){this.state.count = "";}
     this.setState(state => ({
       count: state.count + "5"
     }));
   }
    six6() {
+    if(this.state.count == 0){this.state.count = "";}
     this.setState(state => ({
       count: state.count + "6"
     }));
   }
    seven7() {
+    if(this.state.count == 0){this.state.count = "";}
     this.setState(state => ({
       count: state.count + "7"
     }));
   }
    eight8() {
+    if(this.state.count == 0){this.state.count = "";}
     this.setState(state => ({
       count: state.count + "8"
     }));
   }
    nine9() {
+    if(this.state.count == 0){this.state.count = "";}
     this.setState(state => ({
       count: state.count + "9"
     }));
   }
    zero0() {
+     if(this.state.count != 0){
     this.setState(state => ({
       count: state.count + "0"
     }));
+   }
   }
   
    addd() {
+     if(this.state.count[this.state.count.length - 1] != " "){
     this.setState(state => ({  
       count: state.count + " " + "+" + " "
         
     }));
+   }
   }
   
   dividee() {
+    if(this.state.count[this.state.count.length - 1] != " "){
     this.setState(state => ({  
       count: state.count + " " + "/" + " "
         
     }));
+   }
   }
   
   multiplyy() {
+    if(this.state.count[this.state.count.length - 1] != " "){
     this.setState(state => ({  
       count: state.count + " " + "*" + " "
         
     }));
+    }
   }
   
   subtractt() {
+    if(this.state.count[this.state.count.length - 1] != " "){
     this.setState(state => ({  
       count: state.count + " " + "-" + " "
         
     }));
+   }
   }
   
   equall() {
